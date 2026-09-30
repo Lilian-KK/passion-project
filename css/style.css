@@ -1,0 +1,144 @@
+    html { font-size: 62.5%; }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            background-color: #000000;
+        }
+
+        .header {
+            position: absolute;
+            top: 25px;
+            width: 100%;
+        }
+
+            .nmixx_logo {
+                position: absolute;
+                left: 45px;
+                height: 32px;
+            }
+
+            .menu {
+                position: absolute;
+                right: 45px;
+                height: 32px;
+                cursor: pointer;
+            }
+
+        .era_logo {
+            display: flex; 
+            justify-content: center; 
+            align-items: center;
+            margin: 0 auto;
+        }
+        
+        .segment {
+            width: 576px;
+            height: 288px;
+            top: 0px;
+            position: absolute;
+        }
+
+
+        .home {
+            margin: 0;
+            padding: 0;
+            min-width: 100%;
+            min-height: 100%;
+            height: auto;
+
+        }
+            .home-background {
+                width: 100vw;
+            }
+
+        .intro {
+            padding: 28px;
+            color: #FFF;
+            text-align: center;
+            font-family: Futura;
+            font-size: 1.2rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        
+        .letter {
+            margin: 0 auto;
+            padding: 0;
+            min-width: 100%;
+            height: auto;
+        }
+            .letter-img {
+                width: 100vw;
+            }
+        
+        .members {
+            display: grid;
+            width: 100vw;
+            column-gap: 145px;
+            row-gap: 0px;
+            grid-template-rows: repeat(1,fit-content(100%));
+            grid-template-columns:   minmax(0,2fr) minmax(0,1fr);
+            grid-auto-flow: row;
+            align-items: center;
+
+        }
+            .member-img {
+                justify-self: stretch;
+                padding-left: 95px;
+            }
+            .member-text {
+                justify-self: stretch;
+                color:#ffffff;
+                text-align: center;
+                font-family: Futura;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+                padding-right: 95px;
+            }
+                .name {
+                    font-size: 4.0rem;
+                }
+                .position {
+                    font-size: 2.4rem;
+                }
+                .birthday {
+                    font-size: 1.5rem;
+                }
+                .letter-text {
+                    font-size: 1.6rem;
+                }
+
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            text-decoration: underline dotted;
+            cursor: pointer;
+        }
+
+        .tooltip .tooltip-text {
+            visibility: hidden;
+            width: 319px;
+            color: #ffffff;
+            text-align: center;
+            padding: 5px 10px;
+            border-radius: 5px;
+            position: absolute;
+            overflow-wrap: break-word;
+        }
+
+        .tooltip:hover .tooltip-text {
+            visibility: visible;
+        }
+
+        .footer {
+            margin-top: 95px;
+            width: 100vw;
+            height: 122px;
+            background-color: #ffffff;
+        }
+
+            .footer-alignment {
+                margin-top: 45px;
+            }
