@@ -1,0 +1,138 @@
+    html { font-size: 62.5%; }
+        * { box-sizing: border-box; }
+        body {
+            margin: 0;
+            background-color: #ffffff;
+        }
+
+        .header {
+            position: absolute;
+            top: 25px;
+            width: 100%;
+        }
+
+            .nmixx_logo {
+                position: absolute;
+                left: 45px;
+                height: 32px;
+            }
+
+            .menu {
+                position: absolute;
+                right: 45px;
+                height: 32px;
+                cursor: pointer;
+            }
+
+        .era-logo {
+            width: 576px;
+            height: 288px;
+            top: 0px;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            display: block;
+        }
+
+        .home {
+            min-width: 100%;
+            min-height: 100%;
+            height: auto;
+
+        }
+            .home-background {
+                width: 100vw;
+            }
+
+        .intro {
+            padding: 28px;
+            color: #1D1D1B;
+            text-align: center;
+            font-family: Futura;
+            font-size: 1.2rem;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        
+        .letter {
+            margin: 0 auto;
+            padding: 0;
+            min-width: 100%;
+            height: auto;
+        }
+            .letter-img {
+                width: 100vw;
+            }
+        
+        .members {
+            padding: 45px;
+            display: grid;
+            width: 100vw;
+            height: 3105px;
+            row-gap: 45px;
+            grid-template-rows: repeat(6,minmax(0,1fr));
+            grid-template-columns: repeat(2,minmax(0,1fr));
+            grid-auto-flow: row;
+
+        }
+            .member-img {
+                justify-self: stretch;
+                padding: 45px;
+            }
+            
+            .member-text {
+                margin-top: 100px;
+                padding: 45px;
+                color:#1D1D1B;
+                text-align: center;
+                font-family: Futura;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+                .name {
+                    font-size: 4.0rem;
+                }
+                .position {
+                    font-size: 2.4rem;
+                }
+                .birthday {
+                    font-size: 1.5rem;
+                }
+                .letter-text {
+                    font-size: 1.6rem;
+                }
+
+        .tooltip {
+            position: relative;
+            display: inline-block;
+            text-decoration: underline dotted;
+            cursor: pointer;
+        }
+
+        .tooltip .tooltip-text {
+            visibility: hidden;
+            width: 100%;
+            color: #1D1D1B;
+            text-align: center;
+            padding: 5px 10px;
+            border-radius: 5px;
+            position: absolute;
+            overflow-wrap: break-word;
+        }
+
+        .tooltip:hover .tooltip-text {
+            visibility: visible;
+        }
+
+        .footer {
+            margin-top: 95px;
+            width: 100vw;
+            height: 122px;
+            background-color: #1D1D1B;
+        }
+
+            .footer-alignment {
+                margin-top: 45px;
+            }

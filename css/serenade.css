@@ -24,18 +24,14 @@
                 cursor: pointer;
             }
 
-        .era_logo {
-            display: flex; 
-            justify-content: center; 
-            align-items: center;
-            margin: 0 auto;
-        }
-        
-        .segment {
+        .era-logo {
             width: 576px;
             height: 288px;
             top: 0px;
             position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            display: block;
         }
 
 
@@ -119,7 +115,7 @@
 
         .tooltip .tooltip-text {
             visibility: hidden;
-            width: 319px;
+            width: 100%;
             color: #ffffff;
             text-align: center;
             padding: 5px 10px;
