@@ -55,17 +55,9 @@
             line-height: normal;
         }
         
-        .letter {
-            margin: 0 auto;
-            padding: 0;
-            min-width: 100%;
-            height: auto;
-        }
-            .letter-img {
-                width: 100vw;
-            }
-        
         .members {
+            background-image: url("../images/heavy/background.png");
+            background-size: 100%;
             padding: 45px;
             display: grid;
             width: 100vw;
